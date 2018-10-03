@@ -31,6 +31,7 @@ namespace task2._2
         }
         static int Inversions(int[] a)
         {
+            a.Reverse();
             int inv = 0;
             for(int i = 0; i < a.Length-1; i++)
             {
